@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context reloadable="true">
+
+	<Resource name="jdbc/mydb" auth="Container" type="javax.sql.DataSource"
+		url="jdbc:mysql://db:3306/mydb?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true"
+		driverClassName="com.mysql.jdbc.Driver"
+		username="db_user"
+		password="db_pass"
+		/>
+
+</Context>
